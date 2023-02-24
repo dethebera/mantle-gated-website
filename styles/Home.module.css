@@ -20,6 +20,10 @@
   color: #9f2c9d;
 }
 
+.mantleGreen{
+  color: #65b3ae;
+}
+
 .divider {
   width: 50%;
   border-color: grey;
@@ -53,7 +57,7 @@
   min-width: 3rem;
   font-size: 1rem;
   background: #e5e5ea;
-  background-image: linear-gradient(to left, #cc25b3 0%, #418dff 101.52%);
+  background-image: linear-gradient(to left, #65b3ae 0%, #000000 101.52%);
   color: #fff;
   width: 180px;
   text-align: center;
