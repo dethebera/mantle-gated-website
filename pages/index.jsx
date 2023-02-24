@@ -5,6 +5,7 @@ import { getUser } from "../auth.config";
 import checkBalance from "../util/checkBalance";
 import styles from "../styles/Home.module.css";
 import { useRouter } from "next/router";
+import { MantleTestnet } from "@thirdweb-dev/chains";
 
 export default function Home() {
   const { logout } = useLogout();
@@ -19,13 +20,16 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.h1}>Restricted Access Page</h1>
+      <h1 className={styles.h1}>Mantle Ecosystem Fund</h1>
+      <p></p>
       <p className={styles.explain}>
-        Thanks for being a member of our NFT community!
+        You now have access to info about an exciting program brought to you by Team Mantel !
       </p>
 
+      <p></p>
+
       <button className={styles.mainButton} onClick={logout}>
-        Logout
+        Return
       </button>
     </div>
   );
@@ -53,7 +57,7 @@ export async function getServerSideProps(context) {
   // Instantiate our SDK
   const sdk = ThirdwebSDK.fromPrivateKey(
     process.env.THIRDWEB_AUTH_PRIVATE_KEY,
-    "mumbai"
+    MantleTestnet,
   );
 
   // Check to see if the user has an NFT
