@@ -44,14 +44,14 @@ export default function Login() {
           <p></p>
         )}
 
-        <ConnectWallet accentColor="#65b3ae" />
+        <ConnectWallet accentColor="#65b3ae"/>
       </>
 
       <p></p>
       <p></p>
 
       <h1 className={styles.h2}>Step 2</h1>
-      <p>Please click on the "Claim NFT" that gives you the access.</p>
+      <p>Please click on the &quot;Claim NFT&quot; that gives you the access.</p>
 
       <Web3Button
         contractAddress={contractAddress}
@@ -65,13 +65,13 @@ export default function Login() {
       <p></p>
 
       <h1 className={styles.h2}>Step 3</h1>
-      <p>Once the transaction is confirmed, click on "Are you ready" below.</p>
+      <p>Once the transaction is confirmed, click on &quot;Are you ready&quot; below.</p>
 
       <p className={styles.explain}>
         {" "}
-        <Link className={styles.mantleGreen}  href="/">
+        <Link className={styles.mantleGreen} href="/">
           Are You Ready?
-        </Link >{" "}
+        </Link>{" "}
       </p>
 
       <hr className={styles.divider} />
