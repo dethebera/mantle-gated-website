@@ -6,6 +6,11 @@
   justify-content: center;
   width: 100vw;
   padding: 0 24px;
+  color: rgb(0, 0, 0);
+}
+
+.container2 {
+  justify-content: left;
 }
 
 .h1 {

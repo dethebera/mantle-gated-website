@@ -24,7 +24,7 @@ select {
 }
 
 :root {
-  --background-color: #1c1e21;
+  --background-color: #ffffff;
   --white: #ffffff;
   --tw-color1: #a855f7;
   --tw-color1-hover: #9333ea;
@@ -36,7 +36,7 @@ body {
   color: var(--white);
   display: flex;
   margin: 0;
-  text-align: center;
+  text-align: match-parent;
 }
 
 h2 {
